@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .allitems {
+        /* transform: translate(50%, 50%); */
+        margin-top: 100px;
+        animation: aziz2 01s linear infinite;
+    }
+
+    @keyframes aziz2 {
+        from {
+            transform: translate(0px, 0px);
+        }
+
+        to {
+            transform: translate(500px, 0px);
+
+        }
+    }
+
+    .balon1 {
+        width: 200px;
+        height: 200px;
+        border: 50px solid;
+        border-radius: 100%;
+        margin-top: 260px;
+        position: absolute;
+        margin-left: 200px;
+        z-index: -2;
+        animation: aziz 01s linear infinite;
+    }
+
+    @keyframes aziz {
+        from {
+            rotate: 0deg;
+        }
+
+        to {
+            rotate: 360deg;
+        }
+    }
+
+    .balon2 {
+        width: 200px;
+        height: 200px;
+        border: 50px solid;
+        border-radius: 100%;
+        margin-top: 250px;
+        position: absolute;
+        margin-left: 845px;
+        z-index: -2;
+        animation: aziz 01s linear infinite;
+    }
+
+    @keyframes aziz {
+        from {
+            rotate: 0deg;
+        }
+
+        to {
+            rotate: 360deg;
+        }
+    }
+
+    .imgone {
+        position: absolute;
+        z-index: -2;
+    }
+
+    .stick {
+        width: 3px;
+        height: 200px;
+        border: 10px solid;
+        background-color: black;
+        margin-left: 90px;
+    }
+
+    .stick2 {
+        position: absolute;
+        width: 200px;
+        height: 3px;
+        border: 10px solid;
+        background-color: black;
+        margin-left: px;
+        margin-top: 90px;
+    }
+
+    .stick3 {
+        position: absolute;
+        width: 200px;
+        height: 3px;
+        border: 10px solid;
+        background-color: black;
+        margin-left: px;
+        margin-top: 90px;
+    }
+
+    .stick4 {
+        width: 3px;
+        height: 200px;
+        border: 10px solid;
+        background-color: black;
+        margin-left: 90px;
+    }
+
+    .pedal {
+        position: absolute;
+        width: 10px;
+        height: 100px;
+        border: 1px solid;
+        background-color: black;
+        margin-bottom: 100px;
+        animation: aziz 01s linear infinite;
+        transform: translate(50%, 50%);
+        margin-left: 600px;
+        margin-top: 400px;
+    }
+
+    .uc1 {
+        position: absolute;
+        width: 30px;
+        height: 20px;
+        border: 1px solid;
+        background-color: black;
+        margin-top: 90px;
+    }
+</style>
+
+<body>
+    <div class="allitems">
+        <div>
+            <img class="imgone" src="aziz.png" alt="">
+            <div class="balon1">
+                <div class="stick2"></div>
+                <div class="stick"></div>
+            </div>
+            <div class="balon2">
+                <div class="stick3"></div>
+                <div class="stick4"></div>
+            </div>
+        </div>
+        <div class="tc">
+            <div class="pedal">
+                <div class="uc1"></div>
+            </div>
+            <div class="pedal2"></div>
+            <div class="uc2"></div>
+        </div>
+    </div>
+</body>
+
+</html>

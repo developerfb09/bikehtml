@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .container {
+            border: 1px solid;
+            width: 400px;
+            height: 20px;
+            padding: 10px;
+            overflow: hidden;
+            transition: all 1s;
+        }
+
+        input {
+            position: absolute;
+            top: 17px;
+            width: 20px;
+            height: 20px;
+            left: 400px;
+            cursor: pointer;
+            opacity: 0;
+        }
+
+        input:checked+.container {
+            height: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <input type="checkbox">
+    <div class="container">
+        <p style="display: inline;">What is file upload size?</p>
+        <i class="fa-solid fa-plus" style="float: right; cursor: pointer;"></i>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla quibusdam dolore sunt provident
+            voluptas aliquam, autem itaque hic sit porro doloribus iure laudantium adipisci reiciendis voluptates
+            consequatur quis iusto ducimus quaerat accusamus! Magni, velit libero eos praesentium recusandae animi sint
+            vel dolorem neque beatae dolor exercitationem soluta quod deleniti, modi fugit molestiae odio. Veritatis
+            sequi unde veniam tenetur aspernatur? Aut, nihil officia quisquam tenetur, possimus libero iure non, velit
+            totam minus animi. Suscipit, laudantium nulla enim repudiandae cum fugit incidunt ex animi error, nemo quia
+            veritatis! In totam sed error labore tempora eius exercitationem, odio magnam, dolores rerum porro.</p>
+    </div>
+</body>
+
+</html>
